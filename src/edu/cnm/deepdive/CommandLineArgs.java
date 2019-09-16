@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class CommandLineArgs {
 
   public static void main(String[] args) {
-    for (int i = 0; i < args.length; i++) {
+    for (String arg : args) {
+      System.out.println(arg.toUpperCase());
 
     }
 
